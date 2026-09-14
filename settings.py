@@ -25,7 +25,13 @@ SECRET_KEY = "django-insecure--6jrl)y8)i+=w7c!8ir=7#ro6d)%6g7@ynjbq&t16d_6_83hn@
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = [
+    "*.onWolke.app",
+    "reflex-entryway-venture.ngrok-free.dev",
+    "localhost",
+    "127.0.0.1"
+    
+]
 
 
 # Application definition
